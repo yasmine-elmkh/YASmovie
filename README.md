@@ -1,12 +1,48 @@
-# React + Vite
+# 🎬 Gestionnaire de Films - Projet React.js (2024/2025)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🎯 Objectif du Projet
 
-Currently, two official plugins are available:
+Ce projet a été réalisé dans le cadre du module de développement web React (2024/2025).  
+L’objectif est de mettre en œuvre les compétences acquises en React.js à travers une application complète de gestion de films.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies utilisées
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React.js](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [React Router](https://reactrouter.com/)
+- [The Movie Database API (TMDb)](https://developer.themoviedb.org/)
+
+---
+
+## 📚 Fonctionnalités principales
+
+### 📌 1. Parcours des films populaires
+- Affichage dynamique des films en provenance de l’API TMDb
+- Page d’accueil `/` avec mise en page responsive
+
+### 🔍 2. Recherche de films
+- Formulaire de recherche `/recherche` avec envoi de requête à l’API
+- Affichage des résultats en temps réel
+
+### ➕ 3. Ajout de films personnalisés
+- Page `/ajouter` contenant un formulaire contrôlé
+- Champs : Titre (obligatoire), Description (obligatoire), Date de sortie (optionnelle)
+
+### 🎞️ 4. Affichage des détails d’un film
+- Page `/film/:id` avec informations détaillées (titre, description, etc.)
+- Intégration des routes dynamiques avec React Router
+
+---
+
+
+---
+
+## 👤 Réalisé par
+
+**Yasmine El Mkhantar**  
+Licence MI – FSR – Année 2024/2025  
+📧 yasminrelmkhantar@gmail.com
+
+[Lien vers le dépôt GitHub](https://github.com/yasmine-elmkh/YASmovie)  
