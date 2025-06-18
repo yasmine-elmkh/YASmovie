@@ -42,7 +42,7 @@ L’objectif est de mettre en œuvre les compétences acquises en React.js à tr
 ## 👤 Réalisé par
 
 **Yasmine El Mkhantar**  
-Licence MI – FSR – Année 2024/2025  
+Master SID – FSR – Année 2024/2025  
 📧 yasminrelmkhantar@gmail.com
 
 [Lien vers le dépôt GitHub](https://github.com/yasmine-elmkh/YASmovie)  
