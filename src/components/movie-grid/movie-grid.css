@@ -1,0 +1,46 @@
+/* movie-grid.css */
+.movie-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+  justify-items: center;
+  align-items: start;
+}
+
+.movie-grid__loadmore {
+  text-align: center;
+}
+
+.movie-search {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+}
+
+.movie-search input {
+  width: 100%;
+  padding-right: 8rem;
+}
+
+.movie-search button {
+  position: absolute;
+  right: 0;
+  top: 2px;
+}
+
+/* Tablet responsive */
+@media (max-width: 1024px) {
+  .movie-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+}
+
+/* Mobile responsive */
+@media (max-width: 600px) {
+  .movie-search button {
+    right: 1px;
+    top: 1px;
+  }
+}

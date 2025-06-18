@@ -1,0 +1,55 @@
+/* hero-slide.css */
+.hero-slide-container {
+  position: relative;
+  width: 80%;
+  height: 100vh;
+  overflow: hidden;
+    margin: 0 auto;
+
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* Assurez-vous que le contenu sous le slider reste visible */
+.container {
+  position: relative;
+  z-index: 20;
+  background: var(--body-bg);
+}
+
+.section {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+.hero-slide-item {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-slide-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-slide-content {
+  position: absolute;
+  bottom: 20%;
+  left: 5%;
+  z-index: 10;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+  border-radius: 8px;
+}

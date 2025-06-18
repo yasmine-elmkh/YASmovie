@@ -1,0 +1,43 @@
+.home-page {
+  padding: 2rem 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.section {
+  margin-bottom: 2rem;
+}
+.section__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.section__header h2 {
+  color: #37246a;
+  font-size: 1.5rem;
+  margin: 0;
+} 
+
+.section__header h2:hover{
+    color :#07bcce;
+    transform: scale(1.2);
+}
+
+.page-content, .common-page-wrapper, .section {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .page-content, .common-page-wrapper, .section, .search-page, .add-movie-page {
+    width: 98%;
+    padding: 0 0.5rem;
+  }
+}
+@media (max-width: 600px) {
+  .page-content, .common-page-wrapper, .section, .search-page, .add-movie-page {
+    width: 100%;
+    padding: 0 0.2rem;
+  }
+}

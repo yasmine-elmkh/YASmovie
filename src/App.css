@@ -1,0 +1,74 @@
+/* Remplacez la règle .container existante par : */
+.container {
+  width: 80%;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+  width: 80%;
+  margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+}
+
+/* Ajoutez cette règle pour le contenu principal */
+.main-content {
+  width: 80%;
+  margin: 0 auto;
+  min-height: 70vh;
+  padding: 2rem 0;
+}
+/* Sections et espacement */
+.section {
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+.section__header {
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+}
+
+/* Grille de films optimisée */
+.movie-grid {
+  --min-column-width: 150px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--min-column-width), 1fr));
+  gap: 1rem;
+  width: 80%;
+}
+
+@media (min-width: 600px) {
+  .movie-grid {
+    --min-column-width: 180px;
+    gap: 1.5rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .movie-grid {
+    --min-column-width: 200px;
+  }
+}
+
+/* Cartes de film */
+.movie-card {
+  width: 80%;
+  aspect-ratio: 2/3;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.movie-card:hover {
+  transform: scale(1.03);
+}
+
+/* En-tête de page */
+.page-header {
+  padding: 1rem 0;
+  margin-bottom: 1.5rem;
+}
+
